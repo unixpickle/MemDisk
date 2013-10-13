@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA96E5B9180A393A009DF345 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA96E5B7180A393A009DF345 /* InfoPlist.strings */; };
+		FA96E5BC180A393A009DF345 /* MemDisk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA96E5BB180A393A009DF345 /* MemDisk.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA96E5AF180A393A009DF345 /* MemDisk.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemDisk.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA96E5B3180A393A009DF345 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		FA96E5B6180A393A009DF345 /* MemDisk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemDisk-Info.plist"; sourceTree = "<group>"; };
+		FA96E5B8180A393A009DF345 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA96E5BA180A393A009DF345 /* MemDisk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemDisk.h; sourceTree = "<group>"; };
+		FA96E5BB180A393A009DF345 /* MemDisk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MemDisk.cpp; sourceTree = "<group>"; };
+		FA96E5BD180A393A009DF345 /* MemDisk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemDisk-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA96E5AA180A393A009DF345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA96E5A4180A393A009DF345 = {
+			isa = PBXGroup;
+			children = (
+				FA96E5B4180A393A009DF345 /* MemDisk */,
+				FA96E5B1180A393A009DF345 /* Frameworks */,
+				FA96E5B0180A393A009DF345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA96E5B0180A393A009DF345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA96E5AF180A393A009DF345 /* MemDisk.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA96E5B1180A393A009DF345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA96E5B2180A393A009DF345 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA96E5B2180A393A009DF345 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA96E5B3180A393A009DF345 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA96E5B4180A393A009DF345 /* MemDisk */ = {
+			isa = PBXGroup;
+			children = (
+				FA96E5BA180A393A009DF345 /* MemDisk.h */,
+				FA96E5BB180A393A009DF345 /* MemDisk.cpp */,
+				FA96E5B5180A393A009DF345 /* Supporting Files */,
+			);
+			path = MemDisk;
+			sourceTree = "<group>";
+		};
+		FA96E5B5180A393A009DF345 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA96E5B6180A393A009DF345 /* MemDisk-Info.plist */,
+				FA96E5B7180A393A009DF345 /* InfoPlist.strings */,
+				FA96E5BD180A393A009DF345 /* MemDisk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA96E5AB180A393A009DF345 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA96E5AE180A393A009DF345 /* MemDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA96E5C0180A393A009DF345 /* Build configuration list for PBXNativeTarget "MemDisk" */;
+			buildPhases = (
+				FA96E5A9180A393A009DF345 /* Sources */,
+				FA96E5AA180A393A009DF345 /* Frameworks */,
+				FA96E5AB180A393A009DF345 /* Headers */,
+				FA96E5AC180A393A009DF345 /* Resources */,
+				FA96E5AD180A393A009DF345 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemDisk;
+			productName = MemDisk;
+			productReference = FA96E5AF180A393A009DF345 /* MemDisk.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA96E5A5180A393A009DF345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alex Nichol";
+			};
+			buildConfigurationList = FA96E5A8180A393A009DF345 /* Build configuration list for PBXProject "MemDisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA96E5A4180A393A009DF345;
+			productRefGroup = FA96E5B0180A393A009DF345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA96E5AE180A393A009DF345 /* MemDisk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA96E5AC180A393A009DF345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA96E5B9180A393A009DF345 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		FA96E5AD180A393A009DF345 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA96E5A9180A393A009DF345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA96E5BC180A393A009DF345 /* MemDisk.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA96E5B7180A393A009DF345 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA96E5B8180A393A009DF345 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA96E5BE180A393A009DF345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA96E5BF180A393A009DF345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA96E5C1180A393A009DF345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemDisk/MemDisk-Prefix.pch";
+				INFOPLIST_FILE = "MemDisk/MemDisk-Info.plist";
+				MODULE_NAME = com.aqnichol.MemDisk;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		FA96E5C2180A393A009DF345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemDisk/MemDisk-Prefix.pch";
+				INFOPLIST_FILE = "MemDisk/MemDisk-Info.plist";
+				MODULE_NAME = com.aqnichol.MemDisk;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA96E5A8180A393A009DF345 /* Build configuration list for PBXProject "MemDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA96E5BE180A393A009DF345 /* Debug */,
+				FA96E5BF180A393A009DF345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA96E5C0180A393A009DF345 /* Build configuration list for PBXNativeTarget "MemDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA96E5C1180A393A009DF345 /* Debug */,
+				FA96E5C2180A393A009DF345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA96E5A5180A393A009DF345 /* Project object */;
+}
