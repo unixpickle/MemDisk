@@ -24,7 +24,7 @@
 }
 
 - (void)applicationDidBecomeActive:(NSNotification *)notification {
-    []
+    [tableView reloadData];
 }
 
 - (IBAction)addPressed:(id)sender {
